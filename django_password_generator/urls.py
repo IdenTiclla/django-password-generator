@@ -23,5 +23,5 @@ urlpatterns = [
         "about/", views.about
     ),
     path('', views.home),
-    path('password/',views.password)
+    path('generate-password',views.password, name='password'),
 ]
