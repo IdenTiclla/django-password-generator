@@ -22,4 +22,6 @@ urlpatterns = [
     path(
         "about/", views.about
     ),
+    path('', views.home),
+    path('password/',views.password)
 ]
